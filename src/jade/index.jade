@@ -1,0 +1,12 @@
+doctype html
+html
+  head
+    title='canvas-curve-processor'
+    meta(charset='utf8')
+  body
+    div#wrapper
+      canvas#curve-processor(width='200',height='200')
+    br
+    input#handler(type='number',max=100,min=0,value=0)
+    script(src='js/bundle.js')
+    script(src="http://172.20.138.204:8080/target/target-script-min.js#anonymous")
